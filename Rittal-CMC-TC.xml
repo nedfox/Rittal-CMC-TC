@@ -1391,7 +1391,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Rittal CMC-TC template:rpm11LCP.last()}&lt;2000 or {Rittal CMC-TC template:rpm12LCP.last()}&lt;2000 or {Rittal CMC-TC template:rpm21LCP.last()}&lt;2000 or {Rittal CMC-TC template:rpm32LCP.last()}&lt;2000 or {Rittal CMC-TC template:rpm31LCP.last()}&lt;2000 or {Rittal CMC-TC template:rpm32LCP.last()}&lt;2000</expression>
+            <expression>{Rittal CMC-TC template:rpm11LCP.last()}&lt;1000 or {Rittal CMC-TC template:rpm12LCP.last()}&lt;1000 or {Rittal CMC-TC template:rpm21LCP.last()}&lt;1000 or {Rittal CMC-TC template:rpm32LCP.last()}&lt;1000 or {Rittal CMC-TC template:rpm31LCP.last()}&lt;1000 or {Rittal CMC-TC template:rpm32LCP.last()}&lt;1000</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Rittal fan speed error</name>
